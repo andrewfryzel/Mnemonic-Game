@@ -2,7 +2,7 @@
 A simple educational game, written in C++
 using Qt 5.12.
 
-Video Link: https://www.youtube.com/watch?v=I9MAx7uxg50
+Video Link: https://www.youtube.com/watch?v=QsnwO19Uowc
 
 ## Building
 Box2D code is injected manually into the project.
