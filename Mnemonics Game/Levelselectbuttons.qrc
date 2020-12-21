@@ -1,0 +1,51 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Pictures/level1.png</file>
+        <file>Pictures/level2.png</file>
+        <file>Pictures/level3.png</file>
+        <file>Pictures/level4.png</file>
+        <file>Pictures/level5.png</file>
+        <file>Pictures/scores.png</file>
+        <file>Pictures/tutorial.png</file>
+        <file>Pictures/blue_background.png</file>
+        <file>Pictures/blackbluegradient.png</file>
+        <file>Pictures/Mountain4.jpg</file>
+        <file>Pictures/Mountains2.png</file>
+        <file>Pictures/Mountains3.jpg</file>
+        <file>Pictures/Mountains1.jpg</file>
+        <file>Pictures/home.png</file>
+        <file>Pictures/startgame.png</file>
+        <file>Pictures/scores.png</file>
+        <file>Pictures/acronym.png</file>
+        <file>Pictures/contrivedassociation.png</file>
+        <file>Pictures/easyassociation.png</file>
+        <file>Pictures/goback.png</file>
+        <file>Pictures/levelselect.png</file>
+        <file>Pictures/numbers.png</file>
+        <file>Pictures/phrase.png</file>
+        <file>Pictures/poem.png</file>
+        <file>Pictures/rhyme.png</file>
+        <file>Pictures/visual.png</file>
+        <file>Pictures/selectlevel.png</file>
+        <file>images/bluegradient2.png</file>
+        <file>Pictures/anotherexample.png</file>
+        <file>Pictures/bluegradient2.png</file>
+        <file>Pictures/greybackground.png</file>
+        <file>Pictures/level6.png</file>
+        <file>Pictures/next.png</file>
+        <file>Pictures/nextstage.png</file>
+        <file>Pictures/nice.png</file>
+        <file>Pictures/no.png</file>
+        <file>Pictures/playnow.png</file>
+        <file>Pictures/restartstage.png</file>
+        <file>Pictures/startgameorange.png</file>
+        <file>Pictures/starttutorial.png</file>
+        <file>Pictures/teachme.png</file>
+        <file>Pictures/what.png</file>
+        <file>Pictures/yellowbackground.png</file>
+        <file>Pictures/yes.png</file>
+        <file>Pictures/endgame.png</file>
+        <file>Pictures/proceed.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>

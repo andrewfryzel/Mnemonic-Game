@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>ImagesLevel6/test2.png</file>
+        <file>ImagesLevel6/lean.png</file>
+        <file>ImagesLevel6/point.png</file>
+        <file>ImagesLevel6/stick.png</file>
+        <file>ImagesLevel6/mercury.jpg</file>
+        <file>ImagesLevel6/venus.jpeg</file>
+        <file>ImagesLevel6/mars.jpeg</file>
+        <file>ImagesLevel6/space.jpg</file>
+        <file>ImagesLevel6/earthIcon.jpg</file>
+        <file>ImagesLevel6/marsIcon.jpg</file>
+        <file>ImagesLevel6/venusIcon.jpg</file>
+        <file>ImagesLevel6/earthIcon.png</file>
+        <file>ImagesLevel6/marsIcon.png</file>
+        <file>ImagesLevel6/mercuryIcon.png</file>
+        <file>ImagesLevel6/venusIcon.png</file>
+        <file>ImagesLevel6/neptuneIcon.png</file>
+        <file>ImagesLevel6/saturnIcon.png</file>
+        <file>ImagesLevel6/uranusIcon.png</file>
+        <file>ImagesLevel6/jupiterIcon.png</file>
+    </qresource>
+    <qresource prefix="/alden">
+        <file>images/P.png</file>
+        <file>images/E.png</file>
+        <file>images/M.png</file>
+        <file>images/D.png</file>
+        <file>images/A.png</file>
+        <file>images/S.png</file>
+        <file>images/Border.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>images/Alien_2_Enlarged.png</file>
+        <file>images/Alien_4_Enlarged.png</file>
+        <file>images/fireemoji.png</file>
+    </qresource>
+</RCC>

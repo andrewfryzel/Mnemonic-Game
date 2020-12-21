@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Level1Pictures/167_78_domain.png</file>
+        <file>Level1Pictures/167_78_family.png</file>
+        <file>Level1Pictures/167_78_genus.png</file>
+        <file>Level1Pictures/167_78_kingdom.png</file>
+        <file>Level1Pictures/167_78_class.png</file>
+        <file>Level1Pictures/167_78_order.png</file>
+        <file>Level1Pictures/167_78_Phylum.png</file>
+        <file>Level1Pictures/167_78_species.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Level1</class>
+ <widget class="QWidget" name="Level1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1040</width>
+    <height>529</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1040</width>
+     <height>529</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QWidget" name="navigationPage">
+    <widget class="QLabel" name="descriptionLabel">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>0</y>
+       <width>861</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>URW Bookman L</family>
+       <pointsize>40</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 40pt &quot;URW Bookman L&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#eeeeec;&quot;&gt;CLICK ON A MNEMONIC TYPE TO LEARN ABOUT IT!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="levelButton">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>410</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/selectlevel.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="verbalgimmickButton">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>180</y>
+       <width>140</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/contrivedassociation.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="poemButton">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>180</y>
+       <width>140</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/poem.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="crosswordsButton">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>310</y>
+       <width>140</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/phrase.png);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numbersgameButton">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>310</y>
+       <width>140</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/numbers.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="associationButton">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>180</y>
+       <width>140</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/easyassociation.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="rhymeButton">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>180</y>
+       <width>140</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/rhyme.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="acronymButton">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>310</y>
+       <width>140</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/acronym.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="makingaspeechButton">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>310</y>
+       <width>140</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/visual.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>rhymeButton</zorder>
+    <zorder>verbalgimmickButton</zorder>
+    <zorder>poemButton</zorder>
+    <zorder>associationButton</zorder>
+    <zorder>acronymButton</zorder>
+    <zorder>descriptionLabel</zorder>
+    <zorder>levelButton</zorder>
+    <zorder>crosswordsButton</zorder>
+    <zorder>numbersgameButton</zorder>
+    <zorder>makingaspeechButton</zorder>
+   </widget>
+   <widget class="QWidget" name="rhymePage">
+    <widget class="QPushButton" name="goBack_3">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>410</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/goback.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>691</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>KG LET HER GO</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#eeeeec;&quot;&gt;The &lt;/span&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#eeeeec;&quot;&gt;rhyme mnemonic&lt;/span&gt;&lt;span style=&quot; font-size:26pt; color:#eeeeec;&quot;&gt; is used by combining the information you want to memorize into a simple rhyme.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-style:italic; color:#eeeeec;&quot;&gt;A common rhyme mnemonic is &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; color:#eeeeec;&quot;&gt;&amp;quot;In&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; text-decoration: underline; color:#eeeeec;&quot;&gt; 1492&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; color:#eeeeec;&quot;&gt;, Columbus sailed the ocean&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; text-decoration: underline; color:#eeeeec;&quot;&gt; blue.&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#eeeeec;&quot;&gt;&lt;br/&gt;Another way to use the rhyme mnemonic is to relate what you are trying to memorize with its meaning in a rhyme. For example, you wouldn't want your doctor to confuse &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; font-style:italic; color:#eeeeec;&quot;&gt;cyanide&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#eeeeec;&quot;&gt; with &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; font-style:italic; color:#eeeeec;&quot;&gt;cyanate&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#eeeeec;&quot;&gt;!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#eeeeec;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-style:italic; color:#eeeeec;&quot;&gt;You can remember which is which with this mnemonic: &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; color:#eeeeec;&quot;&gt;&amp;quot;Cyan&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; text-decoration: underline; color:#eeeeec;&quot;&gt;ate&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; color:#eeeeec;&quot;&gt; 'I &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; text-decoration: underline; color:#eeeeec;&quot;&gt;ate'&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; color:#eeeeec;&quot;&gt; and cyan&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; text-decoration: underline; color:#eeeeec;&quot;&gt;ide&lt;br/&gt;'I died'&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; color:#eeeeec;&quot;&gt;.&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="teacher">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>20</y>
+       <width>271</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>goBack_3</zorder>
+    <zorder>teacher</zorder>
+   </widget>
+   <widget class="QWidget" name="verbalgimmickPage">
+    <widget class="QPushButton" name="goBack">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>410</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/goback.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>691</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>KG LET HER GO</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt;Unlike the&lt;/span&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#eeeeec;&quot;&gt; easy association,&lt;/span&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt; the &lt;/span&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#eeeeec;&quot;&gt;contrived association&lt;/span&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt; takes something funny or unrealistic to memorize similar words.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;Look at this example for &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-style:italic; color:#eeeeec;&quot;&gt;stalagmite &lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;and&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-style:italic; color:#eeeeec;&quot;&gt; stalacite&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; font-style:italic; color:#eeeeec;&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; font-style:italic; text-decoration: underline; color:#eeeeec;&quot;&gt;Stalag&lt;/span&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt;means &lt;/span&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline; color:#eeeeec;&quot;&gt;prison&lt;/span&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt;; and &lt;/span&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; font-style:italic; text-decoration: underline; color:#eeeeec;&quot;&gt;mite&lt;/span&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt;means &lt;/span&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline; color:#eeeeec;&quot;&gt;mighty&lt;/span&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt;. this clearly represents a prison securely on the ground, so the other must be hanging from the ceiling.&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="teacher_2">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>10</y>
+       <width>271</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>label_3</zorder>
+    <zorder>goBack</zorder>
+    <zorder>teacher_2</zorder>
+   </widget>
+   <widget class="QWidget" name="poemPage">
+    <widget class="QPushButton" name="goBack_2">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>410</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/goback.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>691</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>KG LET HER GO</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt;Using the poem in a mnemonic is as simple as putting all the information you &lt;br/&gt;want to memorize into a rhythmic poem.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; text-decoration: underline; color:#eeeeec;&quot;&gt;An example of this is one to remember the days in the months:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#eeeeec;&quot;&gt;30 days hath september,&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#eeeeec;&quot;&gt;april, june, and november.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#eeeeec;&quot;&gt;all the rest have 31&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#eeeeec;&quot;&gt;except february, my dear son.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#eeeeec;&quot;&gt;it has 28 and that is fine&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#eeeeec;&quot;&gt;but in leap year it has 29.&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="teacher_3">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>20</y>
+       <width>271</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>label_4</zorder>
+    <zorder>goBack_2</zorder>
+    <zorder>teacher_3</zorder>
+   </widget>
+   <widget class="QWidget" name="associationPage">
+    <widget class="QPushButton" name="goBack_4">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>410</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/goback.png);</string>
+     </property>
+     <property name="text">
+      <string>`</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>691</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>KG LET HER GO</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#eeeeec;&quot;&gt;Sometimes it is hard to remember words that are similar to each other.&lt;/span&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt; Instead of memorizing them by their definitions, it is easier to associate the spelling of the word with something it relates to.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;For example, desert and dessert are spelled very similarly. An easy way to remember which is which is to remember that you always want an &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#eeeeec;&quot;&gt;extra helping&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt; when it comes to dessert, so it has the &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#eeeeec;&quot;&gt;extra &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; text-decoration: underline; color:#eeeeec;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#eeeeec;&quot;&gt;!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="teacher_4">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>10</y>
+       <width>271</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>label_5</zorder>
+    <zorder>goBack_4</zorder>
+    <zorder>teacher_4</zorder>
+   </widget>
+   <widget class="QWidget" name="acronymPage">
+    <widget class="QPushButton" name="goBack_5">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>410</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/goback.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>691</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>KG LET HER GO</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#eeeeec;&quot;&gt;The acronym works by making a word out of things you want to memorize.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; color:#eeeeec;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;Say you wanted to go to the store and needed to buy &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#eeeeec;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;ggs, &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#eeeeec;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;pples, and &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#eeeeec;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;ice. the word &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#eeeeec;&quot;&gt;E-A-R&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt; would help you remember what you need to buy.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#eeeeec;&quot;&gt;ROY G BIV&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt; is a common acronym that shows the ordering of the colors of the &lt;br/&gt;rainbow &lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; color:#eeeeec;&quot;&gt;(red, orange, yellow, green, blue, indigo, violet)&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="teacher_5">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>10</y>
+       <width>271</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>label_6</zorder>
+    <zorder>goBack_5</zorder>
+    <zorder>teacher_5</zorder>
+   </widget>
+   <widget class="QWidget" name="crosswordsPage">
+    <widget class="QPushButton" name="goBack_6">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>410</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/goback.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>691</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>KG LET HER GO</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#eeeeec;&quot;&gt;The phrase is similar to the acronym&lt;/span&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt;. Instead of creating a word, you are creating a phrase where the first letters of each phrase represents the word you are memorizing. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-style:italic; text-decoration: underline; color:#eeeeec;&quot;&gt;A &lt;/span&gt;&lt;span style=&quot; font-size:18pt; text-decoration: underline; color:#eeeeec;&quot;&gt;phrase to help remember the order of taxonomy in biology is:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-style:italic; color:#eeeeec;&quot;&gt;prefer cheese over fried green spinach (kingdom, phylum, class, order, family, genus, species)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="teacher_6">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>20</y>
+       <width>271</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>label_7</zorder>
+    <zorder>goBack_6</zorder>
+    <zorder>teacher_6</zorder>
+   </widget>
+   <widget class="QWidget" name="numbersgamePage">
+    <widget class="QPushButton" name="goBack_8">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>410</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/goback.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>691</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>KG LET HER GO</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#eeeeec;&quot;&gt;A way to remember a super long number is to create a phrase&lt;/span&gt;&lt;span style=&quot; font-size:24pt; color:#eeeeec;&quot;&gt;. In this phrase, the length of the word will represent the next number in the sequence.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#eeeeec;&quot;&gt;For example, here's pi to 15 places:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-style:italic; color:#eeeeec;&quot;&gt;&amp;quot;how i like a drink, alcoholic of course, after the heavy lectures involving quantum mechanics.&amp;quot; (3.1415926538979)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="teacher_7">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>10</y>
+       <width>271</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>label_8</zorder>
+    <zorder>goBack_8</zorder>
+    <zorder>teacher_7</zorder>
+   </widget>
+   <widget class="QWidget" name="makingaspeechPage">
+    <widget class="QPushButton" name="goBack_7">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>410</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/Pictures/goback.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>691</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>KG LET HER GO</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt; font-weight:600; color:#eeeeec;&quot;&gt;Visual mnemonics&lt;/span&gt;&lt;span style=&quot; font-size:28pt; color:#eeeeec;&quot;&gt; can be useful if you ever have to give a speech.&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#eeeeec;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#eeeeec;&quot;&gt;Instead of reading your speech repeatedly to meomorize, visualize parts of it instead!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#eeeeec;&quot;&gt;For example, imagine you are walking through your house and every piece of furniture represents a paragraph. This is called the &lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#eeeeec;&quot;&gt;&amp;quot;Mind Palace&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:16pt; color:#eeeeec;&quot;&gt; technique, and can be very effective for creating memorable stories that are easy to remember.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="teacher_8">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>20</y>
+       <width>271</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>label_9</zorder>
+    <zorder>goBack_7</zorder>
+    <zorder>teacher_8</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/ingredients">
+        <file>images/avocado.png</file>
+        <file>images/bacon.png</file>
+        <file>images/bread-slice.png</file>
+        <file>images/cheese.png</file>
+        <file>images/doritos.png</file>
+        <file>images/egg.png</file>
+        <file>images/fish-sticks.png</file>
+        <file>images/grapes.png</file>
+        <file>images/ham.png</file>
+        <file>images/italian-sausage.png</file>
+        <file>images/jalepeno.png</file>
+        <file>images/kale.png</file>
+        <file>images/lettuce.png</file>
+        <file>images/macaroni.png</file>
+        <file>images/noodles.png</file>
+        <file>images/onion-rings.png</file>
+        <file>images/pepperoni.png</file>
+        <file>images/queso-fresco.png</file>
+        <file>images/ramen.png</file>
+        <file>images/spinach.png</file>
+        <file>images/turkey.png</file>
+        <file>images/umeboshi.png</file>
+        <file>images/veal.png</file>
+        <file>images/waffle.png</file>
+        <file>images/xylocarp.png</file>
+        <file>images/yams.png</file>
+        <file>images/zucchini.png</file>
+    </qresource>
+    <qresource prefix="/reuben">
+        <file>images/reuben-explain.png</file>
+        <file>images/reuben-serious.png</file>
+        <file>images/reuben-sit.png</file>
+    </qresource>
+</RCC>
