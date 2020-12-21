@@ -1,5 +1,5 @@
 # Mnemonics Game
-A simple educational game, written in C++
+An educational "Mnemonic" memory game, written in C++
 using Qt 5.12.
 
 Video Link: https://www.youtube.com/watch?v=QsnwO19Uowc
