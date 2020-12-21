@@ -2,6 +2,8 @@
 A simple educational game, written in C++
 using Qt 5.12.
 
+Video Link: https://www.youtube.com/watch?v=I9MAx7uxg50
+
 ## Building
 Box2D code is injected manually into the project.
 Note that this project requires the use of Qt version 5.13.
