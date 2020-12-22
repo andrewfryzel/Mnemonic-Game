@@ -1,8 +1,9 @@
 # Mnemonics Game
 An educational "Mnemonic" memory game, written in C++
 using Qt 5.12.
+[![Montage Video](mnemonics.PNG)](https://youtu.be/djG80Nq2y54)
 
-Video Link: https://www.youtube.com/watch?v=QsnwO19Uowc
+Video Link: https://youtu.be/djG80Nq2y54
 
 ## Building
 Box2D code is injected manually into the project.
