@@ -2,7 +2,7 @@
 An educational "Mnemonic" memory game, written in C++
 using Qt 5.12.
 
-[![Montage Video](mnemonics.PNG)](https://youtu.be/djG80Nq2y54)
+[![Mnemonics Video](mnemonics_youtube.PNG)](https://youtu.be/djG80Nq2y54)
 
 Video Link: https://youtu.be/djG80Nq2y54
 
